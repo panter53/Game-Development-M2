@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 669766574078384656}
-  - component: {fileID: 8023478455097138124}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: NietDeCombo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,19 +32,6 @@ Transform:
   - {fileID: 1051793933410602470}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8023478455097138124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3357854950847448118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a68416d49a8ee404dbd0b9ace6994ecb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  score: 0
 --- !u!1 &6476305753817688883
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,7 +43,8 @@ GameObject:
   - component: {fileID: 1051793933410602470}
   - component: {fileID: 6615099854871552188}
   - component: {fileID: 4665896874668690239}
-  - component: {fileID: 4193840246254557697}
+  - component: {fileID: 8555087012543541578}
+  - component: {fileID: 8571716858099340768}
   m_Layer: 0
   m_Name: Peggle
   m_TagString: Untagged
@@ -174,7 +161,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.0000019073486, y: -0.00000011920929}
   m_Radius: 2.32
---- !u!114 &4193840246254557697
+--- !u!114 &8555087012543541578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476305753817688883}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b08741ae7ac9c043af4853d01eebb0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Peggie_Score
+  addPoints: 100
+--- !u!114 &8571716858099340768
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6476305753817688883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3538fbd673774f84dbaf3d562070abb1, type: 3}
+  m_Script: {fileID: 11500000, guid: a42289c7dd22efb43afdbbb6fa8209d3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Peggie_Score
-  addPoints: 100
+  m_EditorClassIdentifier: Assembly-CSharp::BumperHit
+  scoreValue: 100
