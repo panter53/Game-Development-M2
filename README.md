@@ -8,7 +8,7 @@
 
 ## als je op ENTER drukt print hij een willekeurig getal en als je op ESC drukt dan print hij alle getallen.
 
-### https://github.com/panter53/Game-Development-M2/blob/main/Assets/arrays.cs
+### (https://github.com/panter53/Game-Development-M2/tree/main/Assets/scripts)
 
 ![gif](opdr1_2.gif)
 
@@ -17,7 +17,7 @@
 ## Ik heb een connon gemaakt met een schietlijn en als peggles wc rolletjes, als bal een eitje en als je de peggle raakt krijg je 200 punten.
 
 ## scripts:
-### https://github.com/panter53/Game-Development-M2/tree/main/Assets/scripts
+### (https://github.com/panter53/Game-Development-M2/tree/main/Assets/scripts)
 
 ![gif](opdracht2.1.gif)
 
@@ -26,7 +26,7 @@
 ## ik heb een line gemaakt waarmee je kunt richten en een bal + peggles waar je punten op kunt scoren en die verdwijnen wanneer je ze aanraakt
 
 ## scripts:
-### https://github.com/panter53/Game-Development-M2/tree/main/Assets/scripts
+### (https://github.com/panter53/Game-Development-M2/tree/main/Assets/scripts)
 
 ![gif](/opdracht2_2.gif)
 
