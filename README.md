@@ -41,6 +41,13 @@
 
 ![gif](/opdracht2_2.gif)
 
+# Opdracht 3.1 Score & Triggers Opdracht
+# Opdracht 4.1: Level design & UI Opdracht
+# Opdracht 4.2: Peggle Game, Waardes (score) versturen naar de UI
 
+## de score en multiplier in het beeld laten weergeven
 
+## scripts:
+### https://github.com/panter53/Game-Development-M2/tree/main/Assets/scripts
 
+![gif](/opdracht_3.1.gif)
